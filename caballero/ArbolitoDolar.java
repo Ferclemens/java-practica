@@ -10,6 +10,6 @@ public class ArbolitoDolar {
         double tasa = 850.0;
         int dolares = 100;
         double equivalente = dolares * tasa;
-        System.out.println(String.format("%s USD equivale a %s $ARG a una tasa de cambio de %s por dolar t.t", dolares, equivalente, tasa));
+        System.out.println(String.format("%s USD equivale a %s $ARG a una tasa de cambio de %s pesos por dolar t.t", dolares, equivalente, tasa));
     }
 }

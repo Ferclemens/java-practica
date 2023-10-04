@@ -8,8 +8,8 @@ el usuario ingresa 100 euros, el programa deberá mostrar 120 dólares.
 public class ArbolitoEuro {
     public static void main(String[] args) {
         double tasa = 1.20;
-        int dolares = 100;
-        double equivalente = dolares * tasa;
-        System.out.println(String.format("%s euros equivale a %s dolares a una tasa de cambio de %s por dolar", dolares, equivalente, tasa));
+        int euros = 100;
+        double equivalente = euros * tasa;
+        System.out.println(String.format("%s euros equivale a %s dolares a una tasa de cambio de %s dolares por euro", euros, equivalente, tasa));
     }
 }
